@@ -18,13 +18,14 @@ This is an authentication system built using Spring Boot that supports user regi
 • MySQL: Database to store user and role information.  
 • JWT (JSON Web Token): For secure token-based authentication.  
 • ModelMapper: For converting between different DTOs and entities.  
-• Maven: Build and dependency management.  
+• Maven: Build and dependency management. 
 
 ## API Endpoints
 
 ### 1. User Registration  
     POST /api/auth/register  
-Registers a new user.  
+Registers a new user.
+
 Request Body:  
 ```json
 {
@@ -50,7 +51,8 @@ Response:
 ```
 ### 2. User Login
     POST /api/auth/login  
-Logs in a user and generates a JWT token.  
+Logs in a user and generates a JWT token.
+
 Request Body:  
 ```json
 {
@@ -67,7 +69,8 @@ Response:
 ```
 ### 3. Get User by ID
     GET /api/users/{id} 
-Retrieves user details by their ID.  
+Retrieves user details by their ID.
+
 Response:  
 ```json
 {
