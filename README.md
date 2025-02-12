@@ -10,6 +10,16 @@ This is an authentication system built using Spring Boot that supports user regi
 • Security: Implements security measures such as account locking after multiple failed login attempts and password hashing.  
 • MySQL Database: Stores user and role information in a MySQL database.  
 
+## Technologies Used
+
+• Spring Boot: Framework for building the backend API.  
+• Spring Security: Provides authentication and authorization mechanisms.  
+• Spring Data JPA: For database access using Hibernate ORM.  
+• MySQL: Database to store user and role information.  
+• JWT (JSON Web Token): For secure token-based authentication.  
+• ModelMapper: For converting between different DTOs and entities.  
+• Maven: Build and dependency management.  
+
 ## API Endpoints
 
 ### 1. User Registration  
@@ -69,12 +79,3 @@ Response:
   "enabled": true
 }
 ```
-## Technologies Used
-
-• Spring Boot: Framework for building the backend API.  
-• Spring Security: Provides authentication and authorization mechanisms.  
-• Spring Data JPA: For database access using Hibernate ORM.  
-• MySQL: Database to store user and role information.  
-• JWT (JSON Web Token): For secure token-based authentication.  
-• ModelMapper: For converting between different DTOs and entities.  
-• Maven: Build and dependency management.  
